@@ -13,11 +13,17 @@
         "silverstripe", "elemental", "blocks", "dynamic"
     ],
     "license": "BSD-3-Clause",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/gingin77/silverstripe-flexslider"
+        }
+    ],
     "require": {
         "silverstripe/recipe-cms": "^1@dev || ^4@dev",
         "silverstripe/vendor-plugin": "^1@dev",
         "dnadesign/silverstripe-elemental": "^2@dev || ^3@dev",
-        "dynamic/flexslider": "^3@dev"
+        "dynamic/flexslider": "dev-image-free-slides"
     },
     "require-dev": {
         "phpunit/PHPUnit": "^5.7",
